@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="teal">#E0F2F1</color>
+    <color name="red">#ef5350</color>
+    <color name="gradegrey">#bdc3c7</color>
+    <color name="grey">#eef2f3</color>
+    <color name="anycolor">#4CA1AF</color>
+
+    <!--splashscreen color-->
+    <color name="primary">#3F51B5</color>
+    <color name="primarydark">#273833</color>
+    <color name="black">#000</color>
+    <color name="lightorange">#fdf2df</color>
+    <color name="lightorangedark">#ebd6ab</color>
+    <color name="color">#FF4081</color>
+    <color name="colorprimarydark">#23283a</color>
+    <color name="darkpink">#fe104d</color>
+
+
+    <color name="slider_background">#4227395a</color>
+    <array name="gradient">
+        <item>#F01A29</item>
+        <item>#F2610E</item>
+        <item>#F77503</item>
+        <item>#FA9A02</item>
+        <item>#FBB208</item>
+        <item>#F1BC04</item>
+        <item>#CAB705</item>
+        <item>#96B16E</item>
+        <item>#547A53</item>
+        <item>#365655</item>
+        <item>#2F2759</item>
+        <item>#33144F</item>
+        <item>#290A37</item>
+        <item>#2D072E</item>
+
+    </array>
+
+    <array name="Normal">
+        <item>#e2d1c3</item>
+        <item>#89f7fe</item>
+        <item>#66a6ff</item>
+        <item>#6f86d6</item>
+    </array>
+
+</resources>

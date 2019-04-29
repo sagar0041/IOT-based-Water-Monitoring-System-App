@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_water_quality"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/save1"
+    android:padding="20dp"
+    tools:context="com.example.sagar.iot.WaterQualityActivity">
+
+    <TextView
+        android:layout_marginBottom="-80dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pH Value"
+        android:textSize="35dp"
+        android:padding="10dp"
+        android:textFontWeight="500dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:gravity="center"/>
+
+    <com.github.anastr.speedviewlib.SpeedView
+        android:id="@+id/phValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        app:paddingStart="30dp"
+        app:sv_endDegree="360"
+        app:sv_highSpeedColor="#00B4DB"
+        app:sv_indicator="NeedleIndicator"
+        app:sv_indicatorLightColor="#BB0000FF"
+        app:sv_lowSpeedColor="#FF416C"
+        app:sv_lowSpeedPercent="45"
+        app:sv_markColor="@android:color/white"
+        app:sv_maxSpeed="14"
+        app:sv_mediumSpeedColor="#45B649"
+        app:sv_mediumSpeedPercent="58"
+        app:sv_minSpeed="0.0"
+        app:sv_speedTextColor="@android:color/white"
+        app:sv_speedTextFormat="FLOAT"
+        app:sv_speedTextPadding="250dp"
+        app:sv_speedTextSize="50dp"
+        app:sv_speedometerWidth="30dp"
+        app:sv_startDegree="180"
+        app:sv_textColor="@android:color/background_dark"
+        app:sv_textSize="13dp"
+        app:sv_tickNumber="5"
+        app:sv_tickPadding="5dp"
+        app:sv_tickRotation="false"
+        app:sv_tickTextFormat="FLOAT"
+        app:sv_trembleDuration="1000"
+        app:sv_unit="pHValue"
+        app:sv_unitSpeedInterval="22dp"
+        app:sv_unitTextColor="@android:color/white"
+        app:sv_unitTextSize="17dp"
+        app:sv_unitUnderSpeedText="true"
+        app:sv_withIndicatorLight="true"
+        app:sv_withTremble="false" />
+
+
+    <!--<com.github.anastr.speedviewlib.SpeedView-->
+        <!--android:id="@+id/waterQuality"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="400dp"-->
+        <!--app:paddingStart="30dp"-->
+        <!--app:sv_endDegree="360"-->
+        <!--app:sv_highSpeedColor="#398EDA"-->
+        <!--app:sv_indicator="NeedleIndicator"-->
+        <!--app:sv_indicatorLightColor="#BB0000FF"-->
+        <!--app:sv_lowSpeedColor="#34687B"-->
+        <!--app:sv_lowSpeedPercent="50"-->
+        <!--app:sv_markColor="@android:color/white"-->
+        <!--app:sv_maxSpeed="100"-->
+        <!--app:sv_mediumSpeedPercent="50"-->
+        <!--app:sv_minSpeed="0.0"-->
+        <!--app:sv_speedTextColor="@android:color/white"-->
+        <!--app:sv_speedTextFormat="INTEGER"-->
+        <!--app:sv_speedTextPadding="250dp"-->
+        <!--app:sv_speedTextSize="50dp"-->
+        <!--app:sv_speedometerWidth="30dp"-->
+        <!--app:sv_startDegree="180"-->
+        <!--app:sv_textColor="@android:color/background_dark"-->
+        <!--app:sv_textSize="13dp"-->
+        <!--app:sv_tickNumber="8"-->
+        <!--app:sv_tickPadding="5dp"-->
+        <!--app:sv_tickRotation="false"-->
+        <!--app:sv_tickTextFormat="INTEGER"-->
+        <!--app:sv_trembleDuration="1000"-->
+        <!--app:sv_unit="Water Quality"-->
+        <!--app:sv_unitSpeedInterval="22dp"-->
+        <!--app:sv_unitTextColor="@android:color/white"-->
+        <!--app:sv_unitTextSize="17dp"-->
+        <!--app:sv_unitUnderSpeedText="true"-->
+        <!--app:sv_withIndicatorLight="true"-->
+        <!--app:sv_withTremble="true" />-->
+
+</RelativeLayout>

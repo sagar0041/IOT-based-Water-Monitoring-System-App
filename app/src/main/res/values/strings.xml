@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Water Monitoring System</string>
+    <string name="title_activity_pump">PumpActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="water_monitoring_system">Water Monitoring System</string>
+    <string name="get_started">Get Started</string>
+    <string name="water_level">Water Level</string>
+    <string name="set_the_level_of_the_tank_to_be_filled">Set the level of the tank to be filled</string>
+    <string name="provides_video_tutorials_for_user">Provides video tutorials for user</string>
+    <string name="security_and_health_status_of_the_tank">Security and User Logout</string>
+    <string name="setting_and_health_of_motor">Settings and Logout</string>
+    <string name="check_the_daily_reports_of_the_tank">Check the daily reports of the tank</string>
+    <string name="daily_reports">Daily Reports</string>
+    <string name="tutorial_s">Tutorial\'s</string>
+    <string name="x_value">x-Value</string>
+    <string name="aboutus">About Us</string>
+    <string name="y_value">y-Value</string>
+    <string name="insert">Insert</string>
+    <string name="stop_tracking">Stop Tracking</string>
+    <string name="start_tracking">Set Alarm</string>
+    <string name="enter_the_level_of_the_tank_to_be_filled">Enter the Level of the Tank to be Filled</string>
+    <string name="todo">TODO</string>
+    <string name="health">Logout</string>
+    <string name="security">Security</string>
+    <string name="the_application_is_to_control_and_detect_water_quality_monitoring_system_for_housing_societies_which_provide_the_direct_drinking_water_stored_in_tank_at_top_of_the_building_so_the_objective_of_proposed_system_is_to_provide_easy_low_cost_and_reliable_water_quality_and_level_monitoring_system_which_can_be_used_at_houses">The Application is to control and detect water quality monitoring system for housing societies which provide the direct drinking water stored in tank at top of the building. So the objective of proposed system is to provide easy, low cost and reliable water quality and level monitoring system which can be used at houses.</string>
+    <string name="Logout">Logout</string>
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_level_graph">LevelGraphActivity</string>
+</resources>
